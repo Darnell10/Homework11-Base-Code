@@ -14,7 +14,8 @@ public class PokemonDetailActivity extends AppCompatActivity{
 	@Override
 	public void onCreate (@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView();
+		setContentView(R.layout.mypokedetail);
+
 
 		initialize();
 	}
@@ -32,6 +33,6 @@ public class PokemonDetailActivity extends AppCompatActivity{
 			}
 		};
 		RetrofitFactory.getInstance().setPokemonNetworkListener(pokemonNetworkListener);
-		RetrofitFactory.getInstance().getPokemon(pokemonName);
+		//RetrofitFactory.getInstance().getPokemon(pokemonName);
 	}
 }
