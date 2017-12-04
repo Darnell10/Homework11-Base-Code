@@ -14,7 +14,7 @@ public class Pokedex {
     private VersionGroups[] version_groups;
     private PokemonEntries[] pokemon_entries;
 
-    //TODO: Create getters
+    //TODO: Create getters  ...done
 
     public Pokedex(int id, Region region, VersionGroups[] version_groups, PokemonEntries[] pokemon_entries) {
         this.id = id;
@@ -25,9 +25,19 @@ public class Pokedex {
     }
 
 
+    public int getId() {
+        return id;
+    }
 
+    public Region getRegion() {
+        return region;
+    }
 
+    public VersionGroups[] getVersion_groups() {
+        return version_groups;
+    }
 
-
-
+    public PokemonEntries[] getPokemon_entries() {
+        return pokemon_entries;
+    }
 }

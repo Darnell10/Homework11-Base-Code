@@ -5,11 +5,12 @@ import com.example.rusili.homework11.detailscreen.model.objects.Stats;
 import com.example.rusili.homework11.detailscreen.model.objects.Types;
 
 public class Pokemon {
+
 	private Stats[] stats;
 	private Sprites sprites;
 	private Types[] types;
 
-    //TODO: Create getters
+    //TODO: Create getters  //  ..done
 
     public Pokemon(Stats[] stats, Sprites sprites, Types[] types) {
         this.stats = stats;
